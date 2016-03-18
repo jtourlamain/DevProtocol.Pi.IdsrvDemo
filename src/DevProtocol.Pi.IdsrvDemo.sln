@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1C8B68D0-A5CA-49AC-83D8-DF3379B7F7D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9D81B5D7-2611-45A5-95A9-B9944DE2236F}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DevProtocol.Pi.IdsrvDemo.Web", "DevProtocol.Pi.IdsrvDemo.Web\DevProtocol.Pi.IdsrvDemo.Web.xproj", "{9DDC0757-DF92-4C9A-B302-8CF7F06FDF77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevProtocol.Pi.IdsrvDemo.Droid", "DevProtocol.Pi.IdsrvDemo.Droid\DevProtocol.Pi.IdsrvDemo.Droid.csproj", "{56316374-0F9C-49A5-890F-33A5133CA667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevProtocol.Pi.IdsrvDemo.Mobile", "DevProtocol.Pi.IdsrvDemo.Mobile\DevProtocol.Pi.IdsrvDemo.Mobile.csproj", "{E2D5E0E7-52B4-4F1C-8B48-C00438E10952}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DDC0757-DF92-4C9A-B302-8CF7F06FDF77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DDC0757-DF92-4C9A-B302-8CF7F06FDF77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DDC0757-DF92-4C9A-B302-8CF7F06FDF77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DDC0757-DF92-4C9A-B302-8CF7F06FDF77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56316374-0F9C-49A5-890F-33A5133CA667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56316374-0F9C-49A5-890F-33A5133CA667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56316374-0F9C-49A5-890F-33A5133CA667}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{56316374-0F9C-49A5-890F-33A5133CA667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56316374-0F9C-49A5-890F-33A5133CA667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56316374-0F9C-49A5-890F-33A5133CA667}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E2D5E0E7-52B4-4F1C-8B48-C00438E10952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D5E0E7-52B4-4F1C-8B48-C00438E10952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D5E0E7-52B4-4F1C-8B48-C00438E10952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D5E0E7-52B4-4F1C-8B48-C00438E10952}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9DDC0757-DF92-4C9A-B302-8CF7F06FDF77} = {1C8B68D0-A5CA-49AC-83D8-DF3379B7F7D6}
+		{56316374-0F9C-49A5-890F-33A5133CA667} = {1C8B68D0-A5CA-49AC-83D8-DF3379B7F7D6}
+		{E2D5E0E7-52B4-4F1C-8B48-C00438E10952} = {1C8B68D0-A5CA-49AC-83D8-DF3379B7F7D6}
+	EndGlobalSection
+EndGlobal
