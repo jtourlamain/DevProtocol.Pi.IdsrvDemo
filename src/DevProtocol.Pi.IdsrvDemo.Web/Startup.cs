@@ -17,13 +17,11 @@ namespace DevProtocol.Pi.IdsrvDemo.Web
 {
     public class Startup
     {
-        // This method gets called by the runtime. Use this method to add services to the container.
-        // For more information on how to configure your application, visit http://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDataProtection();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IApplicationEnvironment env, ILoggerFactory loggerFactory)
         {
             Log.Logger = new LoggerConfiguration()
@@ -47,12 +45,9 @@ namespace DevProtocol.Pi.IdsrvDemo.Web
                 SigningCertificate = new X509Certificate2(certFile, "idsrv3test"),
                 RequireSsl = false
             };
-
-
             app.UseIdentityServer(idsrvOptions);
         }
 
-        // Entry point for the application.
         public static void Main(string[] args) => WebApplication.Run<Startup>(args);
     }
 }
